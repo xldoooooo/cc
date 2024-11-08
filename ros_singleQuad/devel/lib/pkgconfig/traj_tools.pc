@@ -1,0 +1,8 @@
+prefix=/home/hyy/xxlldd/ros_singleQuad/devel
+
+Name: traj_tools
+Description: Description of traj_tools
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

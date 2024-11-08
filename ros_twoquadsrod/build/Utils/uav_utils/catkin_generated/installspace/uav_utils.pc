@@ -1,0 +1,8 @@
+prefix=/home/hyy/Xld_NMPC_Sim/install
+
+Name: uav_utils
+Description: Description of uav_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy

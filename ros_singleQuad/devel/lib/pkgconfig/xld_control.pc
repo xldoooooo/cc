@@ -1,0 +1,8 @@
+prefix=/home/hyy/xxlldd/ros_singleQuad/devel
+
+Name: xld_control
+Description: Description of xld_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

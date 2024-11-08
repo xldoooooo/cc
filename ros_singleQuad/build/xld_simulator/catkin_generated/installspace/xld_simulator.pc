@@ -1,0 +1,8 @@
+prefix=/home/hyy/xxlldd/ros_singleQuad/install
+
+Name: xld_simulator
+Description: Description of xld_simulator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

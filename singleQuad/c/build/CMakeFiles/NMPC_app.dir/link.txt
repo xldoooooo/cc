@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/NMPC_app.dir/src/NMPC_app.cpp.o  -o NMPC_app   -L/home/hyy/acados/lib  -Wl,-rpath,/home/hyy/acados/lib:/home/hyy/xld/singleQuad/c/build libocp_shared_lib.so libsim_shared_lib.so -lacados -lhpipm -lblasfeo 

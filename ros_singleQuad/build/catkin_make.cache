@@ -1,0 +1,2 @@
+Utils/cmake_utils:Utils/multi_map_server:Utils/odom_visualization:Utils/pose_utils:Utils/quadrotor_msgs:Utils/rviz_plugins:Utils/uav_utils:traj_tools:xld_control:xld_simulator
+-DCATKIN_DEVEL_PREFIX=/home/hyy/xxlldd/ros_singleQuad/devel -DCMAKE_INSTALL_PREFIX=/home/hyy/xxlldd/ros_singleQuad/install -G Unix Makefiles

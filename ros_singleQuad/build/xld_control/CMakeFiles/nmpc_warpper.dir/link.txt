@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -g  -shared -Wl,-soname,libnmpc_warpper.so -o /home/hyy/xxlldd/ros_singleQuad/devel/lib/libnmpc_warpper.so CMakeFiles/nmpc_warpper.dir/src/mpc_wrapper.cpp.o   -L/home/hyy/acados/lib  -Wl,-rpath,/home/hyy/acados/lib:/home/hyy/xxlldd/ros_singleQuad/devel/lib /home/hyy/xxlldd/ros_singleQuad/devel/lib/libocp_shared_lib.so -lacados -lhpipm -lblasfeo 

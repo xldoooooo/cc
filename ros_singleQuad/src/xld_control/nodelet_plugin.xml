@@ -1,0 +1,7 @@
+<library path="lib/libxld_control_nodelet">
+  <class name="xld_control/XldControlNodelet" type="XldControlNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+      so3_control
+    </description>
+  </class>
+</library>

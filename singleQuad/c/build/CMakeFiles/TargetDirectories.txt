@@ -1,0 +1,5 @@
+/home/hyy/xld/singleQuad/c/build/CMakeFiles/rebuild_cache.dir
+/home/hyy/xld/singleQuad/c/build/CMakeFiles/edit_cache.dir
+/home/hyy/xld/singleQuad/c/build/CMakeFiles/NMPC_app.dir
+/home/hyy/xld/singleQuad/c/build/CMakeFiles/sim_shared_lib.dir
+/home/hyy/xld/singleQuad/c/build/CMakeFiles/ocp_shared_lib.dir

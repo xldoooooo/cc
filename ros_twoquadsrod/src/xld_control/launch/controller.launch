@@ -1,0 +1,34 @@
+<launch>  
+   <arg name="init_x" value="0"/>
+   <arg name="init_y" value="0"/>
+   <arg name="init_z" value="-1"/>
+ 
+   <!-- Position Controller -->  
+   <node pkg="nodelet" type="nodelet" name="xld_control"
+     args="standalone xld_control/XldControlNodelet"
+     required="true"
+     output="screen">
+     <param name="so3_control/init_state_x" value="$(arg init_x)"/>
+     <param name="so3_control/init_state_y" value="$(arg init_y)"/>
+     <param name="so3_control/init_state_z" value="$(arg init_z)"/>
+     <remap from="~odom" to="/sim/odom"/>
+     <remap from="~position_cmd" to="/position_cmd"/>
+     <remap from="~motors" to="motors"/>
+     <remap from="~corrections" to="corrections"/>
+     <remap from="~so3_cmd" to="/so3_cmd"/>
+     <remap from="~imu" to="/sim/imu"/>
+     <remap from="~traj_cmd" to="/mpc_ref_traj"/>  
+     <rosparam file="$(find xld_control)/config/gains_hummingbird.yaml"/>
+     <rosparam file="$(find xld_control)/config/corrections_hummingbird.yaml"/>
+     <param name="mass" value="0.98"/>
+     <param name="use_angle_corrections " value="false"/>
+     <param name="use_external_yaw "      value="false"/>
+     <param name="gains/rot/z" value="1.0"/>    
+     <param name="gains/ang/z" value="0.1"/>  
+     
+   </node>  
+ 
+ </launch>
+
+
+

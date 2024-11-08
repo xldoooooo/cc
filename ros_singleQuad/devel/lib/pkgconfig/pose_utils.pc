@@ -1,0 +1,8 @@
+prefix=/home/hyy/xxlldd/ros_singleQuad/devel
+
+Name: pose_utils
+Description: Description of pose_utils
+Version: 0.0.0
+Cflags: -I/home/hyy/xxlldd/ros_singleQuad/src/Utils/pose_utils/include
+Libs: -L${prefix}/lib -lpose_utils
+Requires: 

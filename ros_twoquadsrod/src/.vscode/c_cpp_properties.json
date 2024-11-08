@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hyy/quadrotor_simulator-master/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/hyy/quadrotor_simulator-master/src/Utils/multi_map_server/include/**",
+        "/home/hyy/quadrotor_simulator-master/src/Utils/pose_utils/include/**",
+        "/home/hyy/quadrotor_simulator-master/src/Utils/quadrotor_msgs/include/**",
+        "/home/hyy/quadrotor_simulator-master/src/so3_control/include/**",
+        "/home/hyy/quadrotor_simulator-master/src/so3_quadrotor_simulator/include/**",
+        "/home/hyy/quadrotor_simulator-master/src/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
